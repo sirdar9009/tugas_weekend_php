@@ -1,6 +1,6 @@
 <?php
 function luas_kubus($sisi){
-  return $sisi * $sisi;
+  return pow($sisi,2)*6;
 }
 function sisi_kubus($luas){
   return sqrt($luas/6);
